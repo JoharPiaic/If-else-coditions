@@ -13,15 +13,36 @@
 // }
 
 
-var age = +prompt("Enter our age ")
-var gender = +prompt("Enter Gender ")
-if(age < 18 && gender == "Male"){
-    alert("You are allow")
+// var age = +prompt("Enter our age ")
+// var gender = +prompt("Enter Gender ")
+// if(age < 18 && gender == "Male"){
+//     alert("You are allow")
+// }
+// else if(age < 18){
+//     alert("You are allow")
+// }
+
+// else{
+//     alert("You are not allow")
+// }
+
+
+// // // == only check character
+
+var a = "5";
+if(a === 5){
+    alert(" True")
 }
-else if(age < 18){
-    alert("You are allow")
+else{
+    alert("false")
 }
 
+
+// //    ==== also check type
+var b = "5";
+if(b == 5){
+    alert(" True")
+}
 else{
-    alert("You are not allow")
+    alert("false")
 }
